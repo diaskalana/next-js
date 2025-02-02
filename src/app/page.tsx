@@ -38,7 +38,7 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-grow bg-white p-10 text-center text-black text-xl font-sans mt-20">
-        <section className="my-10 flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-white text-center p-10 animate-fade-in rounded-3xl shadow-2xl transform transition duration-500 hover:scale-105 hover:rotate-2">
+        <section className="my-10 flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-white text-center p-10 animate-fade-in rounded-3xl shadow-2xl transform transition duration-500 hover:scale-105 hover:rotate-2 max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-5 animate-slide-in drop-shadow-lg">
             Welcome to the Next.js Project
           </h2>
