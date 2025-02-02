@@ -47,13 +47,19 @@ export default function Home() {
             ut.
           </p>
         </section>
-        <section className="my-10">
-          <h2 className="text-3xl font-semibold mb-5">Features</h2>
-          <ul className="list-disc list-inside text-left mx-auto max-w-2xl">
-            <li className="mb-2">Fast and responsive</li>
-            <li className="mb-2">SEO friendly</li>
-            <li className="mb-2">Easy to customize</li>
-            <li className="mb-2">Powered by Next and Tailwind CSS</li>
+        <section className="my-10 p-10 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white rounded-3xl shadow-2xl transform transition duration-500 hover:scale-105 hover:rotate-2 max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-5 animate-slide-in drop-shadow-lg">
+            Features
+          </h2>
+          <ul className="list-disc list-inside text-left mx-auto max-w-2xl space-y-3">
+            <li className="mb-2 text-lg animate-fade-in">
+              Fast and responsive
+            </li>
+            <li className="mb-2 text-lg animate-fade-in">SEO friendly</li>
+            <li className="mb-2 text-lg animate-fade-in">Easy to customize</li>
+            <li className="mb-2 text-lg animate-fade-in">
+              Powered by Next and Tailwind CSS
+            </li>
           </ul>
         </section>
         <section className="my-10">
