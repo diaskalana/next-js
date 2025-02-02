@@ -62,12 +62,14 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className="my-10">
-          <h2 className="text-3xl font-semibold mb-5">Get Started</h2>
-          <p className="text-lg">
+        <section className="my-10 p-10 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white rounded-3xl shadow-2xl transform transition duration-500 hover:scale-105 hover:rotate-2 max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold mb-5 animate-slide-in drop-shadow-lg">
+            Get Started
+          </h2>
+          <p className="text-2xl animate-fade-in drop-shadow-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
-          <button className="mt-5 px-6 py-3 bg-black text-white text-lg font-semibold rounded-full hover:bg-gray-800 transition duration-300">
+          <button className="mt-5 px-8 py-4 bg-black text-white text-lg font-semibold rounded-full hover:bg-gray-800 transition duration-300 shadow-lg transform hover:scale-110">
             Learn More
           </button>
         </section>
