@@ -74,8 +74,8 @@ export default function Home() {
           </button>
         </section>
       </main>
-      <footer className="bg-black p-5 text-center text-white text-xl font-sans shadow-lg fixed bottom-0 left-0 w-full z-50">
-        © 2024 Next.js Project. All rights reserved.
+      <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 p-5 text-center text-white text-xl font-sans shadow-lg fixed bottom-0 left-0 w-full z-50">
+        © 2025 Next.js Project. All rights reserved.
       </footer>
     </div>
   );
