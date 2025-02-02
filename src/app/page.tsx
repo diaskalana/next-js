@@ -8,46 +8,41 @@ export default function Home() {
         <nav>
           <ul className="flex space-x-8 text-lg">
             <li>
-              <a
-                href="#home"
-                className="hover:text-gray-400 transition duration-300"
-              >
+              <a href="#home" className="relative transition duration-300">
                 Home
+                <span className="absolute inset-0 bg-yellow-400 opacity-0 transition duration-300 transform scale-105 rounded-lg"></span>
               </a>
             </li>
             <li>
-              <a
-                href="#features"
-                className="hover:text-gray-400 transition duration-300"
-              >
+              <a href="#features" className="relative transition duration-300">
                 Features
+                <span className="absolute inset-0 bg-yellow-400 opacity-0 transition duration-300 transform scale-105 rounded-lg"></span>
               </a>
             </li>
             <li>
               <a
                 href="#get-started"
-                className="hover:text-gray-400 transition duration-300"
+                className="relative transition duration-300"
               >
                 Get Started
+                <span className="absolute inset-0 bg-yellow-400 opacity-0 transition duration-300 transform scale-105 rounded-lg"></span>
               </a>
             </li>
             <li>
-              <a
-                href="#contact"
-                className="hover:text-gray-400 transition duration-300"
-              >
+              <a href="#contact" className="relative transition duration-300">
                 Contact
+                <span className="absolute inset-0 bg-yellow-400 opacity-0 transition duration-300 transform scale-105 rounded-lg"></span>
               </a>
             </li>
           </ul>
         </nav>
       </header>
       <main className="flex-grow bg-white p-10 text-center text-black text-xl font-sans mt-20">
-        <section className="my-10">
-          <h2 className="text-3xl font-semibold mb-5">
+        <section className="my-10 flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-white text-center p-10 animate-fade-in">
+          <h2 className="text-5xl font-bold mb-5 animate-slide-in">
             Welcome to the Next.js Project
           </h2>
-          <p className="text-lg">
+          <p className="text-2xl animate-fade-in">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             ut.
           </p>
